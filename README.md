@@ -103,7 +103,9 @@ Model parameters are constrained using a combination of:
 
 Parallel computing is used to improve efficiency and reproducibility.
 
-*(An example posterior distribution or parameter constraint plot will be added here.)*
+## An example of the parameter constraint on sigma Parameter
+
+![RMF Parameter Constraint](images/sigma.png)
 
 ---
 
