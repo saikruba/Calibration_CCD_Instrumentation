@@ -26,10 +26,11 @@ Raw AstroSat–SXT domain-specific files are ingested and transformed into struc
 
 The SXT detector response is modeled analytically by parameterizing the **Redistribution Matrix Function (RMF)**. For an incident X-ray photon of energy \(E_{in}\), the spectral redistribution can be expressed as an integral over the CCD depth:
 
-\[
+$$
 N(E) \propto \int_{0}^{D} e^{-\mu(E_{in})x}
 \exp\left[-\frac{(E - E_{in} f(x))^2}{2\sigma^2}\right] dx
-\]
+$$
+
 
 Following *Godet et al. (2008)*, the depth-dependent **charge loss function** \(f(x)\) is used for modeling the RMF distribution.
 
